@@ -48,11 +48,11 @@ function AboutMe() {
             learning is paramount.
           </p>
           <br />
-          <div className="rounded-md bg-customBlue border border-aqua text-white hover:bg-aqua hover:border-customBlue hover:text-indigo transition-colors duration-500 px-4 py-2 my-8">
+          {/*<div className="rounded-md bg-customBlue border border-aqua text-white hover:bg-aqua hover:border-customBlue hover:text-indigo transition-colors duration-500 px-4 py-2 my-8">
             <a href="/files/CV_Mattie_Barton.pdf" download>
               download CV
             </a>
-          </div>
+  </div> */}
           
         </div>
         <div className="max-w-md rounded-3xl border border-solid">
