@@ -10,7 +10,6 @@ function Navbar() {
                 about me
             </Link>
             <Link className="hover:text-indigo" to="/projects"> projects </Link>
-            <Link className="hover:text-indigo" to="/contact"> contact </Link>
         </nav>
       </section>
     </header>
