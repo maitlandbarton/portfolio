@@ -1,4 +1,3 @@
-import laptop from "../images/dumpling-dash.png";
 import bootstrap from "../images/bootstrap.png";
 import express from "../images/express.png";
 import mongodb from "../images/mongodb.png";
@@ -45,7 +44,7 @@ function Home() {
         </div>
 
         <div className="flex flex-col w-1/2 py-5 px-5">
-            <img src={laptop}></img>
+            
           
         </div>
       </div>
