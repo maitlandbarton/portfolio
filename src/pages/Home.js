@@ -30,7 +30,7 @@ function Home() {
 
       <div className="flex justify-around mt-14">
         <div className="w-1/2 flex flex-col ml-28 pt-10">
-          <h1 className="text-5xl font-semibold">Hi, I'm Mattie</h1>
+          <h1 className="text-5xl font-semibold mb-3">Hi, I'm Mattie</h1>
           <h2 className="text-3xl">A Fullstack Web Developer</h2>
           <h2 className="text-3xl">& Design Enthusiast</h2>
           <br />
@@ -51,11 +51,13 @@ function Home() {
           <hr className="my-6" />
           <div>
             <div className="flex my-3">
-              <PhoneIcon className="h-6 mr-4" /> <p>+49 176 3611 7408</p>
+             <PhoneIcon className="h-6 mr-4" /> <p>+49 176 3611 7408</p>
             </div>
+            <a href="mailto:maitlandbarton@gmail.com">
             <div className="flex my-3">
               <EnvelopeIcon className="h-6 mr-4" /> <p>maitlandbarton@gmail.com</p>
             </div>
+            </a>
           </div>
 
           

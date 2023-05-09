@@ -6,9 +6,9 @@ const ProjectGrid = () => {
 	const { projects } = useContext(ProjectsContext)
 
   return (
-    <div className="h-screen">
+    <section className="section-height">
     
-      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 mt-6 sm:gap-10 '>
+      <div className='grid grid-cols-3 mt-6 gap-3'>
 				{projects.map((project) => (
 					<ProjectCard
 						title={project.title}
@@ -22,7 +22,7 @@ const ProjectGrid = () => {
       
 
 
-    </div>
+    </section>
 
 
   );

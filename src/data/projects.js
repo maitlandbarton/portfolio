@@ -9,12 +9,12 @@ export const projectsData = [
 		id: 2,
 		title: 'Pokemon Community',
 		category: 'Express App',
-		img: '',
+		img: 'project2img',
 	},
     {
         id: 3,
         title: 'Whisker Weekends',
         category: 'MERN Stack Web App',
-        img: ''
+        img: 'project3img'
     }
 ]
