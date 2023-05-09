@@ -26,10 +26,10 @@ function AboutMe() {
       >
         <div className="max-w-xl flex flex-col items-center rounded-xl bg-white px-12 py-10">
           <div className="text-left w-full">
-          <h4 className="text-xl font-semibold">areas of expertise</h4>
+            <h4 className="text-xl font-semibold">areas of expertise</h4>
           </div>
           <br />
-          
+
           <p>
             My name is Mattie Barton. I'm a Fullstack Web Developer–focus on
             Frontend–with a solid foundation in React and Node.js.
@@ -48,12 +48,11 @@ function AboutMe() {
             learning is paramount.
           </p>
           <br />
-          {/*<div className="rounded-md bg-customBlue border border-aqua text-white hover:bg-aqua hover:border-customBlue hover:text-indigo transition-colors duration-500 px-4 py-2 my-8">
+          <div className="rounded-md bg-customBlue border border-aqua text-white hover:bg-aqua hover:border-customBlue hover:text-indigo transition-colors duration-500 px-4 py-2 my-8">
             <a href="/files/CV_Mattie_Barton.pdf" download>
               download CV
             </a>
-  </div> */}
-          
+          </div>
         </div>
         <div className="max-w-md rounded-3xl border border-solid">
           <img
