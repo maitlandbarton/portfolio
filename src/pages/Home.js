@@ -39,7 +39,7 @@ function Home() {
             responsive and scalable design.
           </p>
 
-          <div className="flex justify-end space-x-5 mt-5">
+          <div className="flex justify-start space-x-5 mt-5">
             <img className="w-10 object-contain" src={react}></img>
             <img className="w-10 object-contain" src={tailwind}></img>
             <img className="w-10 object-contain" src={bootstrap}></img>

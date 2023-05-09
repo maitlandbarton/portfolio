@@ -1,25 +1,12 @@
 import profile from "../images/profile.jpg";
+import Marquee from "../components/reusable/Marquee";
 
 function AboutMe() {
   return (
     <div className="mx-auto max-w-screen">
-      <div class="relative flex overflow-x-hidden">
-        <div class="py-12 animate-marquee whitespace-nowrap ">
-          <span class="mx-4 text-7xl">about me •</span>
-          <span class="mx-4 text-7xl">about me •</span>
-          <span class="mx-4 text-7xl">about me •</span>
-          <span class="mx-4 text-7xl">about me •</span>
-          <span class="mx-4 text-7xl">about me •</span>
-        </div>
 
-        <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
-          <span class="mx-4  text-7xl">about me •</span>
-          <span class="mx-4  text-7xl">about me •</span>
-          <span class="mx-4  text-7xl">about me •</span>
-          <span class="mx-4  text-7xl">about me •</span>
-          <span class="mx-4  text-7xl">about me •</span>
-        </div>
-      </div>
+      <Marquee text1={"about me"} text2={"about me"}/>
+      
       <section
         id="expertise"
         className="flex justify-around items-center max-w-screen section-height mx-10"
