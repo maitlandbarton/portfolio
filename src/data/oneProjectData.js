@@ -3,7 +3,6 @@ import image2 from "../images/whisker_weekends.png";
 import poke1 from "../images/poke-1.png";
 import poke2 from "../images/poke-2.png";
 import ww1 from "../images/ww-1.png";
-import ww2 from "../images/ww-2.png";
 
 export const oneProjectData = [
     {
@@ -68,7 +67,7 @@ export const oneProjectData = [
             {
                 id: 2,
                 alt: "Whisker Weekends Screenshot",
-                img: ww2
+                img: 'image 2'
             }
         ]
     }
