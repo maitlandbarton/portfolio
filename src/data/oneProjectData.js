@@ -13,8 +13,8 @@ export const oneProjectData = [
         ],
         demo: 'https://maitlandbarton.github.io/dumpling-dash-game/',
         sourceCode: 'https://github.com/maitlandbarton/dumpling-dash-game',
-        objective: 'this is the objective paragraph',
-        description: 'this is the description paragraph',
+        objective: 'Creating a simple Javascript game through DOM manipluation, HTML, and CSS. To be classified as a game, it must have logic for either winning or losing. This aim of this project was to display our knowledge of OOP and using Javascript classes effectively.',
+        description: 'For my game, I decided to use my cat, Dumpling, as the main player. The rest of my inspiration for the game play stemmed from this, as it only seemed fitting that he would be trying to collect dumplings. The player uses the arrow keys to move, space bar to shoot and must try to collect as many dumplings as possible while dodging the dogs before they run out of lives!',
         images: [
             {
                 id: 1,
@@ -53,12 +53,12 @@ export const oneProjectData = [
     {
         title: "Whisker Weekends",
         technologiesUsed: [
-            'React, Node.js, Express.js, MongoDB, Bootstrap'
+            'React, Node.js, Express.js, MongoDB, Bootstrap, Socket.io'
         ],
         demo: 'https://whisker-weekends.netlify.app/',
         sourceCode: 'https://github.com/dumpling-charlie/whisker-weekends-client',
-        objective: 'this is the objective paragraph',
-        description: 'this is the description paragraph',
+        objective: 'Designing, building, and delivering a fullstack web application, with an SPA frontend, a REST API backend, and at least 3 database models in one week. Working in pairs, we needed to build a site that allows users to sign up, read, edit, delete and create different types of data while also employing our newly gained knowledge of React.',
+        description: 'My teammate and I drew our inspiration for the application from the love of our pets, so we made a website that allows pet owners to meet up for pet playdates. Our site has user authentication and authorization, centralized error handling, a live chat function for users who are online, and allows users to create profiles for themselves and their pets. They can organize and save events, share and save pet friendly locations in their area, and chat with other pet owners.',
         images: [
             {
                 id: 1,
