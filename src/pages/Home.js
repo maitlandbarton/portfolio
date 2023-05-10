@@ -12,19 +12,19 @@ function Home() {
     <div className="h-screen">
       <div class="relative flex overflow-x-hidden">
         <div class="py-12 animate-marquee whitespace-nowrap ">
-          <span class="mx-4 text-7xl">responsive •</span>
-          <span class="mx-4 text-7xl">scalable •</span>
-          <span class="mx-4 text-7xl">responsive •</span>
-          <span class="mx-4 text-7xl">scalable •</span>
-          <span class="ml-4 mr-7 text-7xl">responsive •</span>
+          <span class="mx-4 text-6xl">responsive •</span>
+          <span class="mx-4 text-6xl">scalable •</span>
+          <span class="mx-4 text-6xl">responsive •</span>
+          <span class="mx-4 text-6xl">scalable •</span>
+          <span class="ml-4 mr-7 text-6xl">responsive •</span>
         </div>
 
         <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
-          <span class="mr-4 ml-8  text-7xl">scalable •</span>
-          <span class="mx-4  text-7xl">responsive •</span>
-          <span class="mx-4  text-7xl">scalable •</span>
-          <span class="mx-4  text-7xl">responsive •</span>
-          <span class="mx-4  text-7xl">scalable •</span>
+          <span class="mr-4 ml-8  text-6xl">scalable •</span>
+          <span class="mx-4  text-6xl">responsive •</span>
+          <span class="mx-4  text-6xl">scalable •</span>
+          <span class="mx-4  text-6xl">responsive •</span>
+          <span class="mx-4  text-6xl">scalable •</span>
         </div>
       </div>
 
@@ -34,7 +34,7 @@ function Home() {
           <h2 className="text-3xl">A Fullstack Web Developer</h2>
           <h2 className="text-3xl">& Design Enthusiast</h2>
           <br />
-          <p className="text-xl">
+          <p className="text-xl font-thin">
             I have a passion for developing high-quality web apps with a
             responsive and scalable design.
           </p>

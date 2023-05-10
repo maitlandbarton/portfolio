@@ -1,16 +1,19 @@
 import { OneProjectProvider } from "../context/OneProjectContext";
-import { useParams } from 'react-router-dom';
-import ProjectHeader from "../components/ProjectHeader";
+import { useParams } from "react-router-dom";
+import ProjectDescription from "../components/ProjectDescription";
+import ProjectGallery from "../components/ProjectGallery";
 
 const ProjectDetails = () => {
+  const { id } = useParams();
 
-    const { id } = useParams()
-
-    return (
-        <OneProjectProvider>
-			<ProjectHeader id={id}/>
-		</OneProjectProvider>
-    )
-}
+  return (
+    <OneProjectProvider>
+      <div className="flex h-screen justify-around">
+        <ProjectDescription id={id} />
+        <ProjectGallery id={id} />
+      </div>
+    </OneProjectProvider>
+  );
+};
 
 export default ProjectDetails;
