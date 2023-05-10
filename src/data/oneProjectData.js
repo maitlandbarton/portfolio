@@ -2,6 +2,8 @@ import image1 from "../images/poke_community.png";
 import image2 from "../images/whisker_weekends.png";
 import poke1 from "../images/poke-1.png";
 import poke2 from "../images/poke-2.png";
+import ww1 from "../images/ww-1.png";
+import ww2 from "../images/ww-2.png";
 
 export const oneProjectData = [
     {
@@ -53,20 +55,20 @@ export const oneProjectData = [
         technologiesUsed: [
             'React, Node.js, Express.js, MongoDB, Bootstrap'
         ],
-        demo: 'https://pokemon-community-project.adaptable.app/',
-        sourceCode: 'https://github.com/DumplingFox/pokemon-community-project',
+        demo: 'https://whisker-weekends.netlify.app/',
+        sourceCode: 'https://github.com/dumpling-charlie/whisker-weekends-client',
         objective: 'this is the objective paragraph',
         description: 'this is the description paragraph',
         images: [
             {
                 id: 1,
                 alt: "Whisker Weekends Screenshot",
-                img: image1
+                img: ww1
             },
             {
                 id: 2,
                 alt: "Whisker Weekends Screenshot",
-                img: image2
+                img: ww2
             }
         ]
     }
