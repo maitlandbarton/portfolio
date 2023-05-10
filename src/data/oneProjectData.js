@@ -1,8 +1,9 @@
-import image1 from "../images/poke_community.png";
-import image2 from "../images/whisker_weekends.png";
+import dd1 from "../images/dd-1.png";
+import dd2 from "../images/dd-2.png";
 import poke1 from "../images/poke-1.png";
 import poke2 from "../images/poke-2.png";
 import ww1 from "../images/ww-1.png";
+import ww2 from "../images/ww-2.png";
 
 export const oneProjectData = [
     {
@@ -18,12 +19,12 @@ export const oneProjectData = [
             {
                 id: 1,
                 alt: "Dumpling Dash Screenshot",
-                img: image1
+                img: dd1
             },
             {
                 id: 2,
                 alt: "Dumpling Dash Screenshot",
-                img: image2
+                img: dd2
             }
         ]
     },
@@ -67,7 +68,7 @@ export const oneProjectData = [
             {
                 id: 2,
                 alt: "Whisker Weekends Screenshot",
-                img: 'image 2'
+                img: ww2
             }
         ]
     }
