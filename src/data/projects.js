@@ -1,3 +1,4 @@
+import project1img from "../images/dd-game.png";
 import project2img from "../images/poke_community.png";
 import project3img from "../images/whisker_weekends.png";
 
@@ -6,7 +7,7 @@ export const projectsData = [
 		id: 1,
 		title: 'Dumpling Dash',
 		category: 'Javascript Game',
-		img: '',
+		img: project1img,
 	},
 	{
 		id: 2,

@@ -6,11 +6,11 @@ const ProjectDescription = ({ id }) => {
   const index = id - 1;
 
   return (
-    <div className="border w-1/2 my-auto px-10">
+    <div className="w-1/2 my-auto px-10">
       <h1 className="text-4xl font-semibold">{oneProject[index].title}</h1>
 
-      <p className="text-xl font-bold mt-2">
-        <span>Demo</span> • <span>Source Code</span>
+      <p className="text-xl font-bold mt-2 text-customBlue">
+        <a href={oneProject[index].demo} className="hover:text-indigo">Demo</a> • <a href={oneProject[index].sourceCode} className="hover:text-indigo">Source Code</a>
       </p>
       <br/>
 
@@ -19,8 +19,6 @@ const ProjectDescription = ({ id }) => {
 
       <p className="text-lg">{oneProject[index].technologiesUsed.join(" / ")}</p>
       <br/>
-
-      
 
       <h2 className="text-2xl font-semibold">Objective</h2>
       <br/>

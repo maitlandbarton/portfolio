@@ -4,7 +4,7 @@ function ProjectCard({ title, category, image, id }) {
   return (
     <Link to={`/projects/${id}`}>
     <div className="border rounded-3xl shadow-xl hover:shadow-2xl hover:shadow-customBlue">
-      <div className="h-3/4 overflow-hidden">
+      <div className="h-64 overflow-hidden">
         <img src={image} className="object-cover w-full rounded-t-3xl"></img>
       </div>
       <div className="text-center px-4 py-5">

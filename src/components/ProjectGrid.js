@@ -8,7 +8,7 @@ const ProjectGrid = () => {
   return (
     <section className="section-height">
     
-      <div className='grid grid-cols-3 mt-6 gap-3'>
+      <div className='grid grid-cols-3 mt-8 gap-3'>
 				{projects.map((project) => (
 					<ProjectCard
 						title={project.title}
