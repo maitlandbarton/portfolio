@@ -28,7 +28,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-around md:mt-14">
+      <div className="flex flex-col lg:flex-row justify-around md:mt-14">
         <div className="md:w-1/2 flex flex-col px-10 md:pl-28 pt-5 lg:pt-10">
           <h1 className="text-5xl font-semibold mb-3">Hi, I'm Mattie 👋🏻</h1>
           <h2 className="text-3xl">A Fullstack Web Developer</h2>
@@ -63,7 +63,7 @@ function Home() {
           
         </div>
 
-        <div className="flex flex-col max-w-full md:w-1/2 pt-10 md:pt-0 my-auto px-10">
+        <div className="hidden md:flex flex-col max-w-full md:w-1/2 pt-10 md:pt-0 my-auto px-10">
           <img src={laptop} />
         </div>
       </div>
