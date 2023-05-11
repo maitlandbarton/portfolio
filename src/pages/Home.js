@@ -35,8 +35,7 @@ function Home() {
           <h2 className="text-2xl md:text-3xl">& Design Enthusiast</h2>
           <br />
           <p className="text-xl font-thin">
-            with a passion for developing high-quality web apps with a
-            responsive and scalable design.
+            passionate for developing high-quality web apps with an intuitive design
           </p>
 
           <div className="flex justify-center space-x-5 mt-5">
