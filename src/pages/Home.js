@@ -9,7 +9,7 @@ import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/outline";
 
 function Home() {
   return (
-    <div className="md:h-screen">
+    <div className="lg:h-screen">
       <div className="relative flex overflow-x-hidden">
         <div className="py-12 animate-marquee whitespace-nowrap ">
           <span className="mx-4 text-6xl">responsive •</span>
@@ -29,8 +29,8 @@ function Home() {
       </div>
 
       <div className="flex flex-col lg:flex-row justify-around md:mt-14">
-        <div className="md:w-1/2 flex flex-col px-10 md:pl-28 pt-5 lg:pt-10">
-          <h1 className="text-5xl font-semibold mb-3">Hi, I'm Mattie 👋🏻</h1>
+        <div className="lg:w-1/2 flex flex-col px-10 lg:pl-28 pt-5 lg:pt-10">
+          <h1 className="text-4xl md:text-5xl font-semibold mb-3">Hi, I'm Mattie 👋🏻</h1>
           <h2 className="text-3xl">A Fullstack Web Developer</h2>
           <h2 className="text-3xl">& Design Enthusiast</h2>
           <br />
@@ -63,7 +63,7 @@ function Home() {
           
         </div>
 
-        <div className="hidden md:flex flex-col max-w-full md:w-1/2 pt-10 md:pt-0 my-auto px-10">
+        <div className="hidden md:flex flex-col max-w-xl lg:max-w-full lg:w-1/2 pt-10 md:pt-0 my-8 lg:my-auto mx-auto lg:px-10">
           <img src={laptop} />
         </div>
       </div>

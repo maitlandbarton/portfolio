@@ -11,7 +11,7 @@ function AboutMe() {
         id="expertise"
         className="flex flex-col justify-around items-center max-w-screen lg:flex-row lg:section-height mx-10"
       >
-        <div className="max-w-xl flex flex-col items-center rounded-xl bg-white md:px-12 py-10">
+        <div className="max-w-2xl flex flex-col items-center rounded-xl bg-white px-8 lg:px-12 py-10">
           <div className="text-left w-full">
             <h4 className="text-xl font-semibold">areas of expertise</h4>
           </div>
@@ -43,7 +43,7 @@ function AboutMe() {
         </div>
         <div className="max-w-md rounded-3xl border border-solid">
           <img
-            className="w-full section-height object-cover rounded-3xl shadow-xl shadow-customBlue"
+            className="w-full h-auto lg:section-height object-cover rounded-3xl shadow-xl shadow-customBlue"
             src={profile}
           ></img>
         </div>
