@@ -6,9 +6,9 @@ const ProjectGrid = () => {
 	const { projects } = useContext(ProjectsContext)
 
   return (
-    <section className="section-height">
+    <section className="lg:section-height">
     
-      <div className='grid grid-cols-3 mt-8 gap-3'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 gap-3'>
 				{projects.map((project) => (
 					<ProjectCard
 						title={project.title}
@@ -16,6 +16,7 @@ const ProjectGrid = () => {
 						image={project.img}
 						id={project.id}
 						key={project.id}
+						className={project.id === 1 ? 'justify-self-center' : ''}
 					/>
 				))}
 			</div>

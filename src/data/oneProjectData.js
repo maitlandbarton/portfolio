@@ -57,7 +57,7 @@ export const oneProjectData = [
         ],
         demo: 'https://whisker-weekends.netlify.app/',
         sourceCode: 'https://github.com/dumpling-charlie/whisker-weekends-client',
-        objective: 'Designing, building, and delivering a fullstack web application, with an SPA frontend, a REST API backend, and at least 3 database models in one week. Working in pairs, we needed to build a site that allows users to sign up, read, edit, delete and create different types of data while also employing our newly gained knowledge of React.',
+        objective: 'Designing, building, and delivering a fullstack web application, with an SPA frontend, a REST API backend, and at least 3 database models...in just one week! Working in pairs, we needed to build a site that allows users to sign up, read, edit, delete and create different types of data while also employing our newly gained knowledge of React.',
         description: 'My teammate and I drew our inspiration for the application from the love of our pets, so we made a website that allows pet owners to meet up for pet playdates. Our site has user authentication and authorization, centralized error handling, a live chat function for users who are online, and allows users to create profiles for themselves and their pets. They can organize and save events, share and save pet friendly locations in their area, and chat with other pet owners.',
         images: [
             {

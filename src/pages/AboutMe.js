@@ -9,7 +9,7 @@ function AboutMe() {
       
       <section
         id="expertise"
-        className="flex justify-around items-center max-w-screen section-height mx-10"
+        className="flex flex-col justify-around items-center max-w-screen lg:flex-row lg:section-height mx-10"
       >
         <div className="max-w-xl flex flex-col items-center rounded-xl bg-white px-12 py-10">
           <div className="text-left w-full">
@@ -35,7 +35,7 @@ function AboutMe() {
             learning is paramount.
           </p>
           <br />
-          <div className="rounded-md bg-customBlue border border-aqua text-white hover:bg-aqua hover:border-customBlue hover:text-indigo transition-colors duration-500 px-4 py-2 my-8">
+          <div className="rounded-md bg-slate-200 text-customBlue hover:shadow-lg hover:shadow-customBlue transition-colors duration-500 px-4 py-2 my-8">
             <a href="/files/CV_Mattie_Barton.pdf" download>
               download CV
             </a>
