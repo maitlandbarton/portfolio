@@ -6,7 +6,7 @@ const ProjectDescription = ({ id }) => {
   const index = id - 1;
 
   return (
-    <div className="w-1/2 my-auto px-10">
+    <div className="lg:w-1/2 mt-5 lg:my-auto px-10">
       <h1 className="text-4xl font-semibold">{oneProject[index].title}</h1>
 
       <p className="text-xl font-bold mt-2 text-customBlue">

@@ -8,7 +8,7 @@ const ProjectDetails = () => {
 
   return (
     <OneProjectProvider>
-      <div className="flex h-screen justify-around">
+      <div className="flex flex-col lg:flex-row lg:h-screen justify-around">
         <ProjectDescription id={id} />
         <ProjectGallery id={id} />
       </div>
