@@ -6,9 +6,9 @@ const ProjectGallery = ({ id }) => {
   const index = id - 1;
 
   return (
-    <div className="grid-rows-2 my-auto sm:max-w-screen">
-    <img className="rounded-xl md:max-w-lg mx-5 md:mx-auto lg:mr-5 my-6 shadow-lg shadow-customBlue" src={oneProject[index].images[0].img}></img>
-    <img className="rounded-xl md:max-w-lg mx-5 md:mx-auto lg:mr-5 my-6 shadow-lg shadow-customBlue" src={oneProject[index].images[1].img}></img>
+    <div className="grid-rows-2 my-auto px-5 md:px-0">
+    <img className="rounded-xl md:max-w-xl md:mx-auto lg:mr-5 my-6 shadow-lg shadow-customBlue" src={oneProject[index].images[0].img}></img>
+    <img className="rounded-xl md:max-w-xl md:mx-auto lg:mr-5 my-6 shadow-lg shadow-customBlue" src={oneProject[index].images[1].img}></img>
     </div>
   )
 }

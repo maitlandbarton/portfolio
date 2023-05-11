@@ -36,7 +36,7 @@ function AboutMe() {
           </p>
           <br />
           <div className="rounded-md bg-slate-200 text-customBlue hover:shadow-lg hover:shadow-customBlue transition-colors duration-500 px-4 py-2 my-8">
-            <a href="/files/CV_Mattie_Barton.pdf" download>
+            <a href="/files/MaitlandBarton_CV.pdf" download>
               download CV
             </a>
           </div>
