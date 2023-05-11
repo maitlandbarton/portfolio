@@ -29,7 +29,7 @@ function Home() {
       </div>
 
       <div className="flex flex-col md:flex-row justify-around md:mt-14">
-        <div className="md:w-1/2 flex flex-col pl-28 pt-5 lg:pt-10">
+        <div className="md:w-1/2 flex flex-col px-10 md:pl-28 pt-5 lg:pt-10">
           <h1 className="text-5xl font-semibold mb-3">Hi, I'm Mattie 👋🏻</h1>
           <h2 className="text-3xl">A Fullstack Web Developer</h2>
           <h2 className="text-3xl">& Design Enthusiast</h2>

@@ -22,7 +22,7 @@ const Navbar = () => {
         </Link>
 
         <div>
-          <div className="sm:hidden">
+          <div className="md:hidden">
             <button
               onClick={toggleMenu}
               type="button"
@@ -43,7 +43,7 @@ const Navbar = () => {
             </button>
           </div>
 
-          <nav className="hidden sm:flex space-x-8 text-xl">
+          <nav className="hidden md:block space-x-8 text-xl">
             <Link className="hover:text-indigo" to="/aboutme">
               about me
             </Link>
