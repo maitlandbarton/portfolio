@@ -4,8 +4,32 @@ import poke1 from "../images/poke-1.png";
 import poke2 from "../images/poke-2.png";
 import ww1 from "../images/ww-1.png";
 import ww2 from "../images/ww-2.png";
+import ffb1 from "../images/ffb_1.jpg";
+import ffb2 from "../images/ffb_2.jpg"
 
 export const oneProjectData = [
+    {
+        title: "Forbidden Fruit Berlin",
+        technologiesUsed: [
+            'React.js', 'Tailwind CSS'
+        ],
+        demo: 'https://forbiddenfruitberlin.netlify.app/',
+        sourceCode: 'https://github.com/maitlandbarton/forbidden-fruit',
+        objective: 'This project combines two of my passion projects - learning to code, and my hand embroidery side business. My goal was to design and develop an exciting Frontend for my soon-to-be web shop, using React and styling with Tailwind. I wanted to experiment with animations, Tailwind classes, and React libraries (such as Framer Motion) that I had not had much experience with so far.',
+        description: 'NOTE: still a WIP! I am planning to configure the React frontend I have designed with Shopify, so that it is a fully functional site where people can buy my art :) For now, I have developed a fully responsive, personally designed site, with animations on both the Home page and About Me page. I already set up the shop all and item description pages as I would like them to be structured and designed, although the functionality will come later when I am ready to launch the shop fully. While my prior projects are a better display for my fullstack skills, I believe this project displays my design/CSS skills and understanding of React components and hooks.',
+        images: [
+            {
+                id: 1,
+                alt: "Forbidden Fruit home page",
+                img: ffb1
+            },
+            {
+                id: 2,
+                alt: "Forbidden Fruit shop all page",
+                img: ffb2
+            }
+        ]
+    },
     {
         title: "Dumpling Dash",
         technologiesUsed: [
